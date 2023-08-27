@@ -5,7 +5,7 @@ function Contact(props) {
     <div className='contactme'>
       <h3>
         I'm out here doing it! TLC Cleaning! Deep cleaning and regular housekeeping.
-        Message or call for a free consultation. 928-241-8325. "Cleaning is Caring" ❤️
+        Message or call for a free consultation. <br></br>928-241-8325. <br></br>"Cleaning is Caring" ❤️
       </h3>
       <h2><u>Contact Us</u></h2>
       <h4><b>Call or Text:</b> 928-241-8325</h4>
