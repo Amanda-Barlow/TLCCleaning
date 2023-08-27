@@ -1,38 +1,102 @@
-.App {
+body {
+  background-color: #edf6f9;
+}
+
+.logopic {
+  max-width: 20%;
+  margin: 1em;
+}
+
+.nav {
+  max-width: 95%;
+  font-size: 1em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  background-color: #5EA0C8;
+  color: #ffffff;
+  max-width: 95%;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 90%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #5aa2d4;
+  margin-top: 2em;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+h3 {
+  background-color: #5872ae;
+  color: #ffffff;
+  margin: 40px;
+  padding: 10px;
+  max-width: 80%;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+li {
+  background-color: #dde5b6;
+  margin: 16px;
+  padding: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-page {
+  width: 80%; /* Increase the width */
+  margin: 0 auto; /* Center the form */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form form {
+  width: 100%; /* Make the form fill the container width */
 }
+
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-form li {
+  margin-bottom: 20px; /* Increase the spacing between form elements */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%; /* Make form fields fill their container */
+  padding: 10px; /* Add padding to form fields */
+  font-size: 16px; /* Increase the font size */
+}
+
+.contact-form .flat-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px; /* Increase the font size */
+}
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
+  gap: 10px; /* Adjust gap between images */
+}
+
+.picture-item {
+  overflow: hidden; /* Crop images to fit the container */
+}
+
+.picture-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.picture-item img:hover {
+  transform: scale(1.1); /* Zoom in slightly on hover */
+}
+
+
