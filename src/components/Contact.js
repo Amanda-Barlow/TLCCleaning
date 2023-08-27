@@ -9,7 +9,8 @@ function Contact(props) {
       </h3>
       <h2><u>Contact Us</u></h2>
       <h4><b>Call or Text:</b> 928-241-8325</h4>
-      <h4><a href="https://www.facebook.com/sharon.r.green.3">Visit us on Facebook</a></h4>
+      <h4><b>Friend (sharon.r.green.3) on Facebook</b></h4>
+      <h4><b>PM for a Quote Today!</b></h4>
     </div>
   );
 }
