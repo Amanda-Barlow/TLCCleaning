@@ -52,6 +52,38 @@ li {
   padding: 6px;
 }
 
+.contact-page {
+  width: 80%; /* Increase the width */
+  margin: 0 auto; /* Center the form */
+}
+
+.contact-form form {
+  width: 100%; /* Make the form fill the container width */
+}
+
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-form li {
+  margin-bottom: 20px; /* Increase the spacing between form elements */
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%; /* Make form fields fill their container */
+  padding: 10px; /* Add padding to form fields */
+  font-size: 16px; /* Increase the font size */
+}
+
+.contact-form .flat-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px; /* Increase the font size */
+}
 .picture-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
