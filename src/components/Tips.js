@@ -16,10 +16,12 @@ function Tips(props) {
             <br></br>
             <li>
                 <b>BACK PROTECTION:</b> What do you use to protect your back when making a lot of hotel beds?
+                <ul>YOUR LEGS. So, instead of using your back to bend and lift the heavy mattresses,; using your legs in a squatting position keeps you going on for about 35 beds if you need it.</ul>
             </li>
             <br></br>
             <li>
-            
+                <b>WHAT COMES FIRST?</b> TLC Cleaning Quiz: what is the very first thing you clean when beginning a room?
+                <ul>Start at the top and work your way down. First, place a protective cover on your bed and clean the ceiling fan/light fixture!</ul>
             </li>
         </div>
     );
