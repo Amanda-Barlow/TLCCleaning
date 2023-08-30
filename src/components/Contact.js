@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Contact(props) {
   return (
     <div className='contactme'>
@@ -9,7 +10,7 @@ function Contact(props) {
       </h3>
       <h2><u>Contact Us</u></h2>
       <h4><b>Call or Text:</b> 928-241-8325</h4>
-      <h4><b>Friend Sharon Best on Facebook</b></h4>
+      <h4><b><a href="https://www.facebook.com/TLCCleaningAZ">Visit our Facebook Page</a></b></h4>
       <h4><b>PM for a Quote Today!</b></h4>
     </div>
   );
